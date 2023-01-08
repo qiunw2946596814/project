@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子网三</title>
+    <link rel="shortcut icon" href="school.ico">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .wb {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        body {
+            background: url(son3/url.png) no-repeat top center;
+            background-color: skyblue;
+        }
+
+        main {
+            position: absolute;
+            width: 1200px;
+            height: 660px;
+            background-color: #fff;
+            left: 50%;
+            top: 186px;
+            transform: translateX(-50%);
+        }
+
+        h1 {
+            display: block;
+            font-weight: normal;
+            font-size: 32px;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+
+        .u0 {
+            margin-top: 30px;
+        }
+
+        .u0 li {
+            margin-top: 5px;
+            color: red;
+            margin-left: 50px;
+            font-size: 14px;
+        }
+
+        .u0 li:first-child {
+            color: black;
+        }
+
+        .u1 {
+            float: left;
+            width: 120px;
+            margin-left: 50px;
+        }
+
+        .u1 li {
+            float: right;
+            margin-top: 32px;
+            font-size: 21px;
+        }
+
+        .u2 {
+            float: left;
+        }
+
+        .u2 input {
+            width: 200px;
+            height: 30px;
+            margin-top: 30px;
+        }
+
+        .u2 select {
+            width: 80px;
+            margin-top: 30px;
+            height: 30px;
+        }
+
+        .u3 {
+            float: left;
+
+        }
+
+        .u3 li {
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+
+        .u3 img {
+            width: 24px;
+            vertical-align: middle;
+        }
+
+        .register {
+            position: absolute;
+            bottom: 140px;
+            left: 170px;
+            width: 203px;
+            height: 50px;
+            background-color: skyblue;
+            border: 2px solid pink;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+        }
+
+        .register a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .bottom {
+            position: absolute;
+            bottom: 30px;
+            left: 170px;
+        }
+
+        .bottom li {
+            margin-top: 7px;
+        }
+
+        .bottom li a {
+            text-decoration: none;
+            color: rgba(0, 0, 255, 0.525);
+        }
+
+        .right {
+            float: right;
+            width: 350px;
+            border-left: 2px solid gray;
+            padding-left: 35px;
+        }
+
+        .right h2 {
+            display: block;
+            height: 40px;
+            width: 255px;
+            font-size: 18px;
+            font-weight: normal;
+            border-bottom: 2px dotted black;
+        }
+
+        .right h2 a {
+            text-decoration: none;
+            color: rgba(0, 0, 255, 0.542);
+        }
+
+        .right h3 {
+            display: block;
+            margin: 16px 0;
+            font-weight: normal;
+            font-size: 18px;
+        }
+
+        .right ul li {
+            margin-top: 15px;
+        }
+
+        .right ul li a {
+            text-decoration: none;
+            color: rgba(0, 0, 255, 0.759);
+        }
+
+        .right ul li img {
+            width: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .right ul li:last-child {
+            margin-top: 30px;
+            margin-left: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="son3/wbb.png" class="wb">
+    <main>
+
+        <div class="left">
+            <h1>官方注册</h1>
+            <ul class="u0">
+                <li>官方认证类型包括：政府、企业、媒体、网站、应用、机构、公益、校园组织</li>
+                <li>注意：</li>
+                <li>1. 非官方类用户，请直接在个人注册处注册。</li>
+                <li>2. 为了保障帐号安全，注册同时会默认为您开启双重登录验证功能，下次登录需要短信验证。</li>
+            </ul>
+            <ul class="u1">
+                <li>*邮箱注册：</li>
+                <li>*设置密码：</li>
+                <li>*微博名：</li>
+                <li>*所在地：</li>
+            </ul>
+            <ul class="u2">
+                <li><input type="email" placeholder="使用邮箱注册"></li>
+                <li><input type="password"></li>
+                <li><input type="text" placeholder="请参考组织/企业/品牌全称"></li>
+                <li><select name="province">
+                        <option selected="selected">江西</option>
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>重庆</option>
+                        <option>吉林</option>
+                        <option>辽林</option>
+                        <option>湖南</option>
+                        <option>湖北</option>
+                        <option>河南</option>
+                        <option>河北</option>
+                    </select>
+                    <select name="city">
+                        <option>南昌</option>
+                        <option>九江</option>
+                        <option>赣州</option>
+                        <option>景德镇</option>
+                        <option>萍乡</option>
+                        <option>抚州</option>
+                        <option>吉安</option>
+                        <option>鹰潭</option>
+                    </select>
+                </li>
+            </ul>
+            <ul class="u3">
+                <li><img src="son3/gg.png">请输入你常用的邮箱<br>
+                    请不要使用私人邮箱作为企业微博的注册邮箱</li>
+                <li><img src="son3/gg.png">6-16字符组成<br> 区分大小写</li>
+                <li><img src="son3/gg.png">请填写企业品牌的全称<br> 可输入4-30位，包含英文、数字和中文</li>
+            </ul>
+            <div class="register">
+                <a href="#"> 立即注册</a>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li><a href="#">微博服务使用协议</a></li>
+                    <li><a href="#">微博个人信息保护政策</a></li>
+                    <li><a href="#">全国人大常委会关于加强网络信息保护的决定</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <h2>已有账号，<a href="#">直接登录»</a></h2>
+            <h3>微博注册帮助</h3>
+            <ul>
+                <li><img src="son3/help1.png"><a href="#">1注册微博账号的常见问题</a></li>
+                <li><img src="son3/help2.png"><a href="#">2注册提示频繁怎么办？</a></li>
+                <li><img src="son3/help3.png"><a href="#">3官方注册设置昵称时提示昵称被保护怎么办？</a></li>
+                <li><img src="son3/help4.png"><a href="#">4官方注册时提示昵称被他人占用了怎么办？</a></li>
+                <li><a href="#">更多帮助»</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

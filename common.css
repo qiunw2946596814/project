@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+/* 一级导航 */
+nav {
+    height: 50px;
+}
+
+nav .box {
+    position: relative;
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.box img {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    margin-top: -8px;
+}
+
+.box .box1 li {
+    float: left;
+    margin: 0 10px;
+}
+
+.box .box1 li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.box .box1 li a:hover {
+    color: red;
+}
+
+.box .box1 li:first-child {
+    margin-left: 150px;
+}
+
+.box .box2 {
+    float: right;
+}
+
+.box2 input {
+    width: 180px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* 页脚 */
+footer {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.before {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.after ul li {
+    float: right;
+
+}
+
+.after ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.after ul li a:hover {
+    color: red;
+}
+
+.after ul li:nth-child(2n) {
+    width: 2px;
+    height: 18px;
+    background-color: black;
+    margin: 5px 10px;
+}
+
+.after span {
+    float: right;
+    margin: 15px 0 0 30px;
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子网二</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="shortcut icon" href="school.ico">
+    <style>
+        body {
+            cursor: url(坎公/gz.png), auto;
+        }
+
+        .img img {
+            width: 330px;
+        }
+
+        .u0 li:nth-child(n) {
+            background-color: rgba(0, 0, 0, 0.466);
+        }
+
+        .l1,
+        .l2,
+        .l3,
+        .l4,
+        .l5,
+        .l6 {
+            float: left;
+            margin: 0 22px;
+            height: 45px;
+            width: 120px;
+            line-height: 45px;
+            text-align: center;
+            background-color: yellowgreen !important;
+        }
+
+        .u0 ul li {
+            visibility: hidden;
+        }
+
+        .u0 ul li a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .u0 ul li:hover {
+            background-color: purple;
+        }
+
+        .u0 .l1:hover li {
+            visibility: visible;
+        }
+
+        .u0 .l2:hover li {
+            visibility: visible;
+            z-index: 6;
+        }
+
+        .u0 .l3:hover li {
+            visibility: visible;
+            z-index: 6;
+        }
+
+        .u0 .l4:hover li {
+            visibility: visible;
+            z-index: 6;
+        }
+
+        .u0 .l5:hover li {
+            visibility: visible;
+            z-index: 6;
+        }
+
+        .u0 .l6:hover li {
+            visibility: visible;
+        }
+
+        /* 下一级 */
+        h2 {
+            text-align: center;
+            color: red;
+        }
+
+        .text {
+            width: 500px;
+            margin: 100px auto;
+            margin-top: 100px;
+        }
+
+        .aside1 {
+            float: left;
+            width: 280px;
+            border: 2px solid black;
+            height: 260px;
+        }
+
+        .aside1 ul li {
+            margin: 15px 0 0 20px;
+        }
+
+        .aside1 ul li a {
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .center {
+            float: left;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+
+        .center img {
+            width: 350px;
+            height: 200px;
+        }
+
+        .aside2 {
+            float: right;
+        }
+
+        .aside2 img {
+            width: 300px;
+        }
+
+        .aside3 {
+            position: absolute;
+            left: 0;
+            top: 722px;
+            width: 280px;
+            height: 290px;
+            border: 2px solid black;
+
+        }
+
+        .aside3 ul li {
+            margin-top: 15px;
+            margin-left: 25px;
+        }
+
+        .aside3 ul li a {
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .aside3 img {
+            display: block;
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+
+        .aside4 {
+            position: absolute;
+            left: 0;
+            top: 1040px;
+            width: 280px;
+            height: 270px;
+            border: 2px solid black;
+        }
+
+        .aside4 ul li {
+            margin-top: 15px;
+            margin-left: 25px;
+        }
+
+        .aside4 ul li a {
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .aside5 {
+            position: absolute;
+            left: 300px;
+            top: 670px;
+            width: 340px;
+        }
+
+        .aside5 li {
+            float: left;
+            margin-left: 10px;
+        }
+
+        .aside5 li img {
+            width: 55px;
+        }
+
+        .aside6 {
+            position: absolute;
+            right: 0;
+            top: 580px;
+            width: 300px;
+            height: 730px;
+            border: 2px solid black;
+        }
+
+        .aside6 h3 {
+            margin: 0 25px;
+            display: block;
+            margin-top: 15px;
+        }
+
+        .aside6 span {
+            display: block;
+            margin-top: 15px;
+            margin-left: 25px;
+        }
+
+        .aside6 span a {
+            text-decoration: none;
+        }
+
+        .man1,
+        .man2 {
+            width: 300px;
+        }
+
+        .aside6 .man1 li {
+            float: left;
+        }
+
+        .aside6 .man1 li span {
+            font-size: 10px;
+
+        }
+
+        .aside6 .man2 {
+            width: 300px;
+        }
+
+        .aside6 .man2 li {
+            margin-left: 30px;
+        }
+
+        .aside7 {
+            position: absolute;
+            top: 725px;
+            left: 300px;
+            width: 340px;
+            height: 570px;
+            border: 2px solid red;
+        }
+
+        .aside7 ul {
+            margin-top: 20px;
+        }
+
+        .aside7 li {
+            float: left;
+            margin-left: 25px;
+            margin-top: 15px;
+        }
+
+        .aside8 {
+            position: absolute;
+            top: 1360px;
+            left: 320px;
+            height: 280px;
+            width: 310px;
+            border: 2px solid black;
+        }
+
+        .aside8 h2 {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .aside8 .pic img {
+            width: 300px;
+        }
+
+        .aside8 li {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .aside8 li a {
+            text-decoration: none;
+        }
+
+        .gift1 {
+            position: absolute;
+            bottom: 100px;
+            left: 100px;
+        }
+
+        .gift1 img {
+            width: 260px;
+        }
+
+        .gift2 {
+            position: absolute;
+            bottom: 100px;
+            right: 160px;
+        }
+
+        .gift2 img {
+            width: 260px;
+        }
+
+        .fly {
+            position: absolute;
+            top: 280px;
+            left: 0;
+            animation: move 6s 1s linear forwards infinite alternate;
+        }
+
+        .fly img {
+            width: 60px;
+        }
+
+        @keyframes move {
+            25% {
+                transform: translate(250px, -100px);
+            }
+
+            50% {
+                transform: translate(500px, 0px);
+            }
+
+            75% {
+                transform: translate(750px, 200px);
+            }
+
+            100% {
+                transform: translate(955px, 0px);
+            }
+        }
+
+        main {
+            position: relative;
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 20px;
+            height: 1780px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 一级导航栏 -->
+    <nav>
+        <div class="box">
+            <img src="坎公/bl.png">
+            <div class="box1">
+                <ul>
+                    <li><a href="#" target="_blank">主站</a></li>
+                    <li><a href="#" target="_blank">首页</a></li>
+                    <li><a href="#" target="_blank">排行榜</a></li>
+                    <li><a href="#" target="_blank">发现</a></li>
+                    <li><a href="https://wiki.biligame.com/">WIKI</a></li>
+                    <li><a href="#" target="_blank">会员礼包</a></li>
+                    <li><a href="#" target="_blank">我的</a></li>
+                </ul>
+            </div>
+            <div class="box2">
+                <input type="search" placeholder="搜索更多"><button>搜索</button>
+            </div>
+        </div>
+    </nav>
+    <!-- 主体内容 -->
+    <main>
+        <div class="fly"><img src="son2/gz.gif"></div>
+        <div class="img"><img src="son2/kgqgj.png"></div>
+        <div class="box">
+            <ul class="u0">
+                <li class="l1 ">首页
+                    <ul>
+                        <li><a href="#">返回首页</a> </li>
+                        <li><a href="#">刷新</a></li>
+                    </ul>
+                </li>
+                <li class="l2">英雄图鉴
+                    <ul>
+                        <li><a href="#">战士</a></li>
+                        <li><a href="#">射手</a></li>
+                        <li><a href="#">辅助</a></li>
+                        <li><a href="#">坦克</a></li>
+                    </ul>
+                </li>
+                <li class="l3">副本攻略
+                    <ul>
+                        <li><a href="#">主线</a></li>
+                        <li><a href="#">外传</a></li>
+                        <li><a href="#">公会战</a></li>
+                    </ul>
+                </li>
+                <li class="l4">道具图鉴
+                    <ul>
+                        <li><a href="#">武器</a></li>
+                        <li><a href="#">盾牌</a></li>
+                        <li><a href="#">饰品</a></li>
+                    </ul>
+                </li>
+                <li class="l5">其他
+                    <ul>
+                        <li><a href="#">工具</a></li>
+                        <li><a href="#">游戏攻略</a></li>
+                        <li><a href="#">解密合集</a></li>
+                    </ul>
+                </li>
+                <li class="l6">日志
+                    <ul>
+                        <li><a href="#">文件</a></li>
+                        <li><a href="#">编辑帮助</a></li>
+                        <li><a href="#">Wiki相关</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="text">
+            欢迎收藏本WIKI防止迷路，也希望有爱的小伙伴和我们一起编辑哟~<br>
+            编辑帮助 • WIKI建议
+        </div>
+        <div class="aside1">
+            <h2>最新资讯</h2>
+            <ul>
+                <li><a href="#">《坎公骑冠剑》1月5日更新公告</a></li>
+                <li> <a href="#">【坎特伯雷杯第二届时装大赛】</a></li>
+                <li> <a href="#">《坎公骑冠剑》12月22日更新公告</a></li>
+                <li> <a href="#">《坎公骑冠剑》封禁条例</a></li>
+                <li> <a href="#">《坎公骑冠剑》12月8日更新公告</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <img src="son2/yd3.png">
+        </div>
+        <div class="aside2">
+            <div class="former"> <img src="son2/wiki1.png"></div>
+            <div class="later"><img src="son2/wiki2.png" alt=""></div>
+        </div>
+        <div class="aside3">
+            <h2>最新攻略</h2>
+            <ul>
+                <li><a href="#">新手指南</a></li>
+                <li><a href="#">新手指南进阶篇</a></li>
+                <li><a href="#">角色推荐</a></li>
+                <li><a href="#">角色梯度榜</a></li>
+            </ul>
+            <img src="son2/text.png" alt="">
+        </div>
+        <div class="aside4">
+            <h2>更新日志</h2>
+            <ul>
+                <li><a href="#">B服公会:二次元同好会</a></li>
+                <li><a href="#">公主米娅莫拉苏娜丹妮谢莉红の童话传说</a></li>
+                <li><a href="#">B服公会:塞西尔的秘密基地</a></li>
+                <li><a href="#">克罗塞尔</a></li>
+                <li><a href="#"> 夏日旅馆老板娘罗兰茵</a></li>
+            </ul>
+        </div>
+        <div class="aside5">
+            <ul>
+                <li><img src="son2/gl1.png"></li>
+                <li><img src="son2/gl2.png"></li>
+                <li><img src="son2/gl3.png"></li>
+                <li><img src="son2/gl4.png"></li>
+                <li><img src="son2/gl5.png"></li>
+            </ul>
+        </div>
+        <div class="aside6">
+            <h2>天堂岛日程</h2>
+            <h3>本次up从01月05日开始，至01月19日结束。</h3>
+            <span><a href="#">查看历史up记录</a> </span>
+            <span> <a href="#">查看版本更新前瞻角色</a></span>
+            <ul class="man1">
+                <h4>角色</h4>
+                <li><span>罗兰茵</span><img src="son2/rw1.png"></li>
+                <li><span>索菲</span><img src="son2/rw2.png"></li>
+                <li><span>偶像伊娃</span><img src="son2/rw3.png"></li>
+                <li><span>救生员柚子</span><img src="son2/rw4.png"></li>
+            </ul>
+            <ul class="man2">
+                <h4>武器</h4>
+                <li><span>海之呼唤</span><img src="son2/wq1.png"></li>
+                <li><span>涅瑞伊得斯</span><img src="son2/wq2.png"></li>
+                <li><span>天使之音</span><img src="son2/wq3.png"></li>
+                <li><span>海洋守护者</span><img src="son2/wq4.png"></li>
+            </ul>
+        </div>
+        <div class="aside7">
+            <h2>主线</h2>
+            <ul>
+                <li><img src="son2/world1.png"></li>
+                <li><img src="son2/world2.png"></li>
+                <li><img src="son2/world3.png"></li>
+                <li><img src="son2/world4.png"></li>
+                <li><img src="son2/world5.png"></li>
+                <li><img src="son2/world6.png"></li>
+                <li><img src="son2/world7.png"></li>
+                <li><img src="son2/world8.png"></li>
+                <li><img src="son2/world9.png"></li>
+                <li><img src="son2/world10.png"></li>
+                <li><img src="son2/world11.png"></li>
+                <li><img src="son2/world12.png"></li>
+                <li><img src="son2/world13.png"></li>
+                <li><img src="son2/world14.png"></li>
+            </ul>
+        </div>
+        <div class="aside8">
+            <h2>友情链接</h2>
+            <div class="pic"><img src="son2/Bigfun.png"></div>
+            <ul>
+                <li><a href="#">Bigfun论坛</a></li>
+                <li><a href="#">坎公百宝袋</a></li>
+            </ul>
+        </div>
+        <div class="gift1"><img src="son2/gz2.gif"></div>
+        <div class="gift2"><img src="son2/gz2.gif"></div>
+    </main>
+    <!-- 页脚区 -->
+    <footer>
+        <div class="befor"><img src="坎公/blbl.png"></div>
+        <div class="after">
+            <ul>
+                <li><a href="#">游戏中心</a></li>
+                <li></li>
+                <li><a href="#">账号安全</a></li>
+                <li></li>
+                <li><a href="#">找回密码</a></li>
+                <li></li>
+                <li><a href="#">家长监护</a></li>
+                <li></li>
+                <li><a href="#">用户协议</a></li>
+                <li></li>
+                <li><a href="#">隐私政策</a></li>
+            </ul>
+            <span>
+                本网络游戏适合年满12岁（含）以上的玩家使用<br>
+
+                抵制不良游戏 拒绝盗版游戏<br> 注意自我保护 谨防受骗上当 <br>
+                适度游戏益脑 沉迷游戏伤身<br> 合理安排时间 享受健康生活</span>
+        </div>
+    </footer>
+</body>
+
+</html>

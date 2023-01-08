@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实验报告</title>
+    <link rel="shortcut icon" href="school.ico">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box1 {
+            width: 340px;
+            height: 186px;
+            background-color: skyblue;
+            margin: 10px auto;
+            padding-left: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: red;
+            font-size: 18px;
+        }
+
+        .box1 ul li {
+            margin-top: 15px;
+
+        }
+
+        .box2 {
+            width: 340px;
+            height: 150px;
+            margin: 25px auto;
+            margin-top: 25px;
+            padding-left: 15px;
+            background-color: pink;
+        }
+
+        .box2 ul li {
+            margin-top: 15px;
+        }
+
+        .box3 {
+            width: 340px;
+            background-color: yellowgreen;
+            margin: 25px auto;
+            height: 180px;
+        }
+
+        .box3 ul li {
+            margin-top: 15px;
+            line-height: 33px;
+            padding-left: 15px;
+            margin-right: 15px;
+        }
+
+        .box4 {
+            width: 340px;
+            height: 885px;
+            background-color: rgba(0, 0, 255, 0.33);
+            margin: 0 auto;
+            padding-left: 15px;
+        }
+
+        .box4 ul li {
+            margin-top: 15px;
+            line-height: 33px;
+            margin-right: 25px;
+        }
+
+        .box4 li span {
+            color: red;
+        }
+
+        aside {
+            position: fixed;
+            bottom: 50%;
+            right: 50%;
+            transform: translateX(-270px);
+        }
+
+        aside ul li {
+            transition: all .3s;
+            width: 120px;
+            height: 35px;
+            border: 2px solid pink;
+            margin-top: -2px;
+            background-color: rgba(255, 0, 0, 0.774);
+            text-align: center;
+            line-height: 35px;
+            font-size: 12px;
+        }
+
+        aside ul li:hover {
+            background-color: #fff;
+        }
+
+        aside ul li a {
+            transition: all .3s;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        aside ul li:hover a {
+            color: rgba(255, 0, 0, 0.774);
+        }
+    </style>
+</head>
+
+<body>
+    <aside>
+        <ul>
+            <li><a href="#title1">人员信息</a></li>
+            <li><a href="#title2">网站介绍</a></li>
+            <li><a href="#title3">网站设计相关</a></li>
+            <li><a href="#title4">网站内容相关</a></li>
+        </ul>
+    </aside>
+    <header>
+        <div class="box1" id="title1">
+            <h2>人员信息</h2>
+            <ul>
+                <li>参与人员：一人</li>
+                <li>姓名：邱能文</li>
+                <li>学号：0223163</li>
+                <li>班级：软件工程2213班</li>
+            </ul>
+        </div>
+        <div class="box2" id="title2">
+            <h2>网站介绍</h2>
+            <ul>
+                <li>名称：my website page</li>
+                <li>主题：有关一款游戏的介绍</li>
+                <li>选题目的：纯粹的热爱</li>
+            </ul>
+        </div>
+        <div class="box3" id="title3">
+            <h2>网站设计相关</h2>
+            <ul>
+                <li>主要包含，头部标签、链接子网页一级导航栏、主体内容、侧边导航栏，页脚区；
+                    在相应的模块中分别放入相对应的图片文字等内容
+                </li>
+            </ul>
+        </div>
+        <div class="box4" id="title4">
+            <h2>网站内容相关</h2>
+            <ul>
+                <li> <span>主要技术包括：</span> <br>
+                    定位的使用、3d转换<br>
+                    2d转换、浮动鼠标样式 <br>
+                    元素的显示与隐藏 <br> 元素居中效果、过渡效果<br>
+                    动画效果、表单使用
+                </li>
+                <li> <span>工具方面：</span><br>
+                    主要是使用QQ的截图功能寻找网上的一些图片或图标
+                </li>
+                <li><span>相关问题：</span> <br>
+                    关于元素的显示与隐藏不是很熟练，会出现一些问题，不知道怎么解决，还有排版方面也不是很清楚
+                </li>
+                <li><span>亮点方面：</span><br>
+                    3d转换（主页链接子网页3d导航栏）<br>
+                    过渡（图片放大效果）<br>
+                    动画效果（图片旋转效果）
+                </li>
+                <li><span>关于最后结果：</span><br>
+                    我个人觉得比较不错了（技术有限，学的比较吃力），
+                    但在相关问题方面还是欠缺自己解决的能力；学习能力比较差，
+                    不太能及时跟上学习进度，还需要多练习
+                </li>
+            </ul>
+        </div>
+    </header>
+</body>
+
+</html>

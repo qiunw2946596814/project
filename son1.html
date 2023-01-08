@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子网一</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="shortcut icon" href="school.ico">
+    <style>
+        /* 一级导航栏 */
+
+        /* 动画 */
+        .man {
+            position: relative;
+            width: 900px;
+            height: 70px;
+            margin: 0 auto;
+        }
+
+        .former {
+            position: absolute;
+            left: 0;
+            animation: move1 5s 1s linear forwards;
+            cursor: pointer;
+        }
+
+        .later {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            cursor: pointer;
+            animation: move2 4s 2s linear forwards;
+        }
+
+        @keyframes move1 {
+            100% {
+                transform: translateX(390px);
+            }
+        }
+
+        @keyframes move2 {
+            100% {
+                transform: translateX(-390px);
+            }
+        }
+
+        /* main */
+        .main .aside {
+            position: fixed;
+            top: 45%;
+            right: 50%;
+            transform: translateX(-400px);
+        }
+
+        .main ul li {
+            position: relative;
+            width: 800px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .main ul li img {
+            width: 800px;
+
+        }
+
+        .main ul li div img {
+            position: absolute;
+            top: 75px;
+            right: 170px;
+            width: 145px;
+            border: 2px solid yellowgreen;
+        }
+
+        .img {
+            transform: ;
+        }
+
+        /* 页脚区 */
+
+        body {
+            background: url(坎公/url.png) no-repeat top center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 一级导航栏 -->
+    <nav>
+        <div class="box">
+            <img src="坎公/bl.png">
+            <div class="box1">
+                <ul>
+                    <li><a href="#" target="_blank">主站</a></li>
+                    <li><a href="#" target="_blank">首页</a></li>
+                    <li><a href="#" target="_blank">排行榜</a></li>
+                    <li><a href="#" target="_blank">发现</a></li>
+                    <li><a href="https://wiki.biligame.com/">WIKI</a></li>
+                    <li><a href="#" target="_blank">会员礼包</a></li>
+                    <li><a href="#" target="_blank">我的</a></li>
+                </ul>
+            </div>
+            <div class="box2">
+                <input type="search" placeholder="搜索更多"><button>搜索</button>
+            </div>
+        </div>
+    </nav>
+    <!-- 动画 -->
+    <div class="man">
+        <div class="former"><img src="坎公/qs1.jpg"></div>
+        <div class="later"><img src="坎公/gz.png"></div>
+    </div>
+    <!-- 主体内容 -->
+    <div class="main">
+        <div class="aside"><img src="坎公/ewm.png" alt=""></div>
+        <ul>
+            <li>
+                <img src="坎公/aa72.png">
+                <div><img src="坎公/kg.gif"></div>
+            </li>
+            <li>
+                <img src="坎公/aa.png">
+            </li>
+        </ul>
+    </div>
+    <!-- 页脚区 -->
+    <footer>
+        <div class="befor"><img src="坎公/blbl.png"></div>
+        <div class="after">
+            <ul>
+                <li><a href="#">游戏中心</a></li>
+                <li></li>
+                <li><a href="#">账号安全</a></li>
+                <li></li>
+                <li><a href="#">找回密码</a></li>
+                <li></li>
+                <li><a href="#">家长监护</a></li>
+                <li></li>
+                <li><a href="#">用户协议</a></li>
+                <li></li>
+                <li><a href="#">隐私政策</a></li>
+            </ul>
+            <span>
+                本网络游戏适合年满12岁（含）以上的玩家使用<br>
+
+                抵制不良游戏 拒绝盗版游戏<br> 注意自我保护 谨防受骗上当 <br>
+                适度游戏益脑 沉迷游戏伤身<br> 合理安排时间 享受健康生活</span>
+        </div>
+    </footer>
+</body>
+
+</html>
